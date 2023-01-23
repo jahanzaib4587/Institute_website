@@ -28,9 +28,8 @@ const Banner = () => {
                 goals
               </h3>
               <p>
-                Nulla facilisi. Proin felis neque, suscipit egestas erat a tin-{" "}
-                <br />
-                cidunt finibus magna consectetur lacus.
+                Our mission is to empower individuals with the skills and knowledge they need to succeed in today's technology-driven job market by providing free,{" "}
+                Top-notch training that bridges the gap between education and industry.
               </p>
               <a href="#" className="thm-btn">
                 <span>Discover More</span>

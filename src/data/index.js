@@ -1,51 +1,55 @@
 export const SERVICE_DATA = {
   sectionTitle: {
-    title: "Piloz Great Features",
-    text: "Our App Feature Lists"
+    title: "Excellium-IT",
+    text: "Our Platform Key Features"
   },
+  
   posts: [
     {
       extraClassName: "",
       icon: "piloz-writing",
-      title: "Easy to edit",
-      text: "Lorem ipsum is are many variations of pass majy."
+      title: "Web Design & Development",
+      text: "Technical training with certifications, hands-on experience, rigorous standards and comprehensive curriculum."
     },
-    {
-      extraClassName: "bg-2",
-      icon: "piloz-shield",
-      title: "Fully secure",
-      text: "Lorem ipsum is are many variations of pass majy."
-    },
+
     {
       extraClassName: "bg-3",
       icon: "piloz-user",
-      title: "Manage user",
-      text: "Lorem ipsum is are many variations of pass majy."
+      title: "Professional Advancement Support",
+      text: "This includes services such as expert LinkedIn management, CRM and VCS training, Scrum guide and certification."
     },
     {
       extraClassName: "bg-4",
       icon: "piloz-gear",
-      title: "Free trial",
-      text: "Lorem ipsum is are many variations of pass majy."
-    }
+      title: "Career Counselling",
+      text: "Career counselling, to help individuals identify and pursue their ideal career path, and other services to help them advance in their chosen field."
+    },
+
+    {
+      extraClassName: "",
+      icon: "piloz-writing",
+      title: "Interview and Job Preparation Services",
+      text: "Expert guidance, professional CV making, and comprehensive interview preparation for landing your dream job."
+    },
+ 
   ]
 };
 
 export const CALL_TO_ACTION_DATA = {
   sectionTitle: {
-    text: "Our App Feature Lists",
-    title: "Powerful App for \n Your Mobile"
+    text: "",
+    title: "Powerful Tool \n for Task Management"
   },
   paragraph:
-    "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eufugiat nulla pariatur. Lorem Ipsum is simply dummy text of the printing laborum  perspiciatis unde.",
+    "We have a project management and task tracking software that allows creating, assigning and tracking tasks, setting deadlines, and monitoring individual progress. It includes visual workflow builder to improve productivity.",
   posts: [
     {
-      title: "Responsive \n Design",
+      title: "Online & Feasible",
       extraClassName: " ",
       icon: "piloz-devices"
     },
     {
-      title: "Online \n Marketing",
+      title: "Course Progress",
       icon: "piloz-networking",
       extraClassName: "color-2"
     }
@@ -68,21 +72,21 @@ import appFeature1 from "@images/resources/cta-2-moc-1.png";
 
 export const APP_FEATURE_DATA = {
   sectionTitle: {
-    title: "Discover Tools for\nYour Customers",
-    text: "Our App Feature Lists"
+    title: "Active Professional Community",
+    text: "Our Professional Groups Key Features"
   },
   image: appFeature1,
   paragraph:
-    "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum lorem ipsum is simply free.",
+    "",
   options: [
     {
-      label: "Refresing to get such a personal touch."
+      label: "Technical Support"
     },
     {
-      label: "Duis aute irure dolor in reprehenderit in voluptate."
+      label: "Knowledge Sharing"
     },
     {
-      label: "Velit esse cillum dolore eu fugiat nulla pariatur."
+      label: "Job Opportunities Alerts"
     }
   ],
   button: { link: "#", label: "Discover More" }
@@ -210,56 +214,75 @@ export const TESTIMONIALS_DATA = {
       extraClassName: " ",
       shape: testimonialShape,
       image: testimonial1,
-      title: "Isabel Griffith",
-      designation: "Customer",
+      title: "Areeza Khan Niazi",
+      designation: "Software Engineer - Systems Ltd",
       text:
-        "This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch."
+        "Great learning experience, thank you. Most appreciated the quiet time and smart technical approach to guide and excel."
     },
     {
       extraClassName: "color-2",
       image: testimonial2,
       shape: testimonialShape2,
-      title: "Wesley Dixon",
-      designation: "Customer",
+      title: "Raza Ali",
+      designation: "Software Engineer - Pikes Soft",
       text:
-        "This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch."
+        "I want to express my gratitude to M.Jahanzaib and the supportive community.The hands-on training was invaluable for my professional growth. Thank you for the noble cause, more power to you."
     },
     {
       extraClassName: " ",
       image: testimonial1,
       shape: testimonialShape,
-      title: "Isabel Griffith",
-      designation: "Customer",
+      title: "Hamza Ijaz",
+      designation: "CS Student - UMT",
       text:
-        "This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch."
+        "The training exceeded my expectations. The expert guidance and support was invaluable."
     },
     {
       extraClassName: "color-2",
       image: testimonial2,
       shape: testimonialShape2,
-      title: "Wesley Dixon",
-      designation: "Customer",
+      title: "Maaz Iqbal",
+      designation: "Software Engineer - Z2A Tech",
       text:
-        "This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch."
+        "A huge thank you for the impactful training. The real-world approach was exactly what I needed to succeed.."
     },
     {
       extraClassName: " ",
       image: testimonial1,
       shape: testimonialShape,
-      title: "Isabel Griffith",
-      designation: "Customer",
+      title: "Anees Fatima",
+      designation: "Software Engineer - UAF",
       text:
-        "This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch."
+        "I am so impressed with the quality of training I received. It has helped me to achieve my career goals."
     },
     {
       extraClassName: "color-2",
       image: testimonial2,
       shape: testimonialShape2,
-      title: "Wesley Dixon",
-      designation: "Customer",
+      title: "Suhaib Ahmad",
+      designation: "Software Engineer - IIFA Tech",
       text:
-        "This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch."
-    }
+        "The institute's effort to bridge the gap between academic knowledge and practical skills is reflected in its well-structured program and community support. It ensures quality education and professional development."
+    },
+    {
+      extraClassName: " ",
+      image: testimonial1,
+      shape: testimonialShape,
+      title: "Noman Ahmad",
+      designation: "Software Engineer - UOA Fsd",
+      text:
+        "Impressed by the efficient system, customized course design and professional community support for any ambiguity. Quality education ensured"
+    },
+    {
+      extraClassName: "color-2",
+      image: testimonial2,
+      shape: testimonialShape2,
+      title: "Farman Tariq",
+      designation: "Software Engineer - TexhX Solutions",
+      text:
+        "The career counseling and skill-sharpening training helped me to become industry-ready at a time when I needed it most. It was truly a miraculous opportunity for me."
+    },
+    
   ]
 };
 
@@ -331,27 +354,27 @@ export const FAQ_DATA = {
   posts: [
     {
       status: true,
-      title: "Pre and post launch mobile app marketing pitfalls to avoid",
+      title: "What is the fee for the training?",
       text:
-        "There are many variations of passages of available but majority have alteration in some by inject humour or random words. Lorem ipsum dolor sit amet, error insolens reprimique no quo, ea pri verterem phaedr vel ea iisque aliquam."
+        "We are committed to providing valuable skills and guidance to our community at no financial cost. We believe in working for the betterment of society through accessible and affordable skills based education."
+    },
+    {
+      status: true,
+      title: "Is there a physical location or specific time schedule required for the course?",
+      text:
+        "No physical presence is required, the course is entirely online, allowing you to learn at your own pace and schedule from the comfort of your home."
     },
     {
       status: false,
-      title: "Boostup your application traffic is just a step away",
+      title: "What is the required background or prerequisites for this course?",
       text:
-        "There are many variations of passages of available but majority have alteration in some by inject humour or random words. Lorem ipsum dolor sit amet, error insolens reprimique no quo, ea pri verterem phaedr vel ea iisque aliquam."
+        "A positive attitude and willingness to learn is crucial for success in the course. However, a degree level above matriculation or background in CS and facing difficulty in programming is ideal for this platform."
     },
     {
       status: false,
-      title: "How to update application new features",
+      title: "Is there any certification offered after completion of the course?",
       text:
-        "There are many variations of passages of available but majority have alteration in some by inject humour or random words. Lorem ipsum dolor sit amet, error insolens reprimique no quo, ea pri verterem phaedr vel ea iisque aliquam."
-    },
-    {
-      status: false,
-      title: "How to connect with the support to improve app experience",
-      text:
-        "There are many variations of passages of available but majority have alteration in some by inject humour or random words. Lorem ipsum dolor sit amet, error insolens reprimique no quo, ea pri verterem phaedr vel ea iisque aliquam."
+        "This course boasts an abundance of certifications from reputable platforms, and further enhances the value by providing immediate hands-on experience."
     }
   ]
 };
